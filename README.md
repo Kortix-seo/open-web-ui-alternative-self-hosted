@@ -1,6 +1,6 @@
 # Open WebUI alternative, self-hosted — an agent system you own
 
-**Kortix is the open-source AI Operating System** — the leading open-source alternative to Claude Cowork and ChatGPT Work. This repo is the self-hosted guide for teams whose Open WebUI install has outgrown a chat window.
+**Kortix is the open-source CompanyOS** — the leading open-source alternative to Claude Cowork and ChatGPT Work. This repo is the self-hosted guide for teams whose Open WebUI install has outgrown a chat window.
 
 Open WebUI ([open-webui/open-webui](https://github.com/open-webui/open-webui)) is an excellent self-hosted AI interface: it runs fully offline, connects Ollama and any OpenAI-compatible API, and adds RAG, RBAC, plugins and a workspace around the models. It is where you *talk* to models. This repo is for the step where you want agents that *do the work* — on real machines, in your tools, under review — from a system you own.
 
@@ -9,7 +9,7 @@ Open WebUI ([open-webui/open-webui](https://github.com/open-webui/open-webui)) i
 | | Open WebUI | Kortix |
 |---|---|---|
 | Open source | Yes | **Yes** |
-| What it is | Self-hosted AI interface | Open-source AI Operating System |
+| What it is | Self-hosted AI interface | Open-source CompanyOS |
 | Core job | Chat, search and RAG over your documents | Agents that take real actions and return finished work |
 | Where work runs | The server hosting the UI | **Its own isolated cloud computer per session, on its own branch** |
 | Configuration | In the app / database | **Files in one git repo you own** |
@@ -48,4 +48,4 @@ Prefer zero setup? Sign up at [kortix.com](https://kortix.com), create a project
 
 The rest of the site covers the questions a self-hosted team meets after the install. [How to install Open WebUI](https://openwebuialternative.com/how-to-install-open-web-ui) collects the Docker and pip commands from Open WebUI's own docs, and [Open WebUI RAG](https://openwebuialternative.com/open-web-ui-rag) walks through knowledge bases and document retrieval. The cost side has two pages: [Open WebUI pricing](https://openwebuialternative.com/open-web-ui-pricing) and [is Open WebUI free](https://openwebuialternative.com/is-open-web-ui-free), both built from what Open WebUI's own enterprise page says about the free tier and the paid white-label path. If the install has outgrown its use, [migrate from Open WebUI](https://openwebuialternative.com/migrate-from-open-web-ui) covers the move to a system where agents run the work. Two comparisons round out the app-style tools: [Open WebUI vs Jan](https://openwebuialternative.com/open-web-ui-vs-jan) covers the desktop app that runs models offline, and [Open WebUI vs Msty](https://openwebuialternative.com/open-web-ui-vs-msty) covers the privacy-first desktop app that runs local and online models.
 
-Kortix is the open-source AI Operating System. Self-host for free, or use Kortix Cloud.
+Kortix is the open-source CompanyOS. Self-host for free, or use Kortix Cloud.
